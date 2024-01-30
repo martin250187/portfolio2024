@@ -83,7 +83,7 @@ const Resume = (props) => {
           </span>
         </div>
       </div>
-      <div className="w-full px-8 sm:px-24">
+      <div className="w-full px-2 sm:px-24">
         <div
           className="flex justify-center items-center py-4"
           data-aos="fade-down"
@@ -108,21 +108,23 @@ const Resume = (props) => {
                 funcionalidades web.
               </p>
             </div>
-            {/*<div
-              className="flex justify-center"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <img
-                className="p-0 h-full rounded-2xl mx-12"
-                src={Photo}
-                alt="CV-Photo"
-              />
-  </div>*/}
+            {/*
+              <div
+                className="flex justify-center"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <img
+                  className="p-0 h-full rounded-2xl mx-12"
+                  src={Photo}
+                  alt="CV-Photo"
+                />
+              </div>
+  */}
           </div>
         </div>
         <div className="flex w-full flex-col sm:flex-row">
-          <div className="pl-2 sm:pl-20 pr-2 sm:pr-4 w-full sm:w-7/8">
+          <div className="pl-2 sm:pl-8 pr-2 sm:pr-4 w-full sm:w-11/12">
             <div className="p-2" data-aos="fade-right" data-aos-duration="1000">
               <h3 className="text-lg underline">Conocimientos</h3>
               <ul className="text-sm">
@@ -223,7 +225,8 @@ const Resume = (props) => {
                     </div>
                   </div>
                   <div>
-                    Aplicación diseñada para la gestión de pacientes y seguimiento de consultas para pacientes pediátricos.
+                    Aplicación diseñada para la gestión de pacientes y
+                    seguimiento de consultas para pacientes pediátricos.
                   </div>
                 </span>
               </ul>
