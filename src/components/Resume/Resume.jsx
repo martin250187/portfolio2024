@@ -185,7 +185,7 @@ const Resume = (props) => {
                     <GiCheckMark className="mx-1" />
                     <div className="underline flex">
                       <a className="flex" href="https://rodarrent.vercel.app/">
-                        Rodar Renth <IoMdLink className="text-xl mx-2" />
+                        Rodar Rent <IoMdLink className="text-xl mx-2" />
                       </a>
                     </div>
                   </div>
